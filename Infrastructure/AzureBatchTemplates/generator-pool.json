@@ -30,7 +30,7 @@
         },
         "nodeAgentSKUId": "batch.node.windows amd64"
       },
-      "vmSize": "Standard_D64_v3",
+      "vmSize": "Standard_D32_v3",
       "targetDedicatedNodes": "[parameters('vmDedicatedCount')]",
       "applicationPackageReferences": [
         {

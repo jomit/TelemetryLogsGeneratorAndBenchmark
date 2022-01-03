@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "shards": {
-            "value": 10
+            "value": 1
         },
         "shardprefix": {
             "value": "adxbench"

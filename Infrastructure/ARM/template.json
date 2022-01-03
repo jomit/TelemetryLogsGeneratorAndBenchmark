@@ -4,7 +4,7 @@
     "parameters": {
         "location": {
             "type": "string",
-            "defaultValue": "westeurope"
+            "defaultValue": "westus"
         },
         "storageAccountType": {
             "type": "string",
