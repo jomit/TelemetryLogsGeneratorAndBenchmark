@@ -2,6 +2,8 @@
 
 - `az extension add --name azure-batch-cli-extensions`
 
+- `git clone https://github.com/jomit/TelemetryLogsGeneratorAndBenchmark.git`
+
 - `cd TelemetryLogsGeneratorAndBenchmark\Infrastructure\ARM`
 
 - `az deployment group create --resource-group DataAtScale --template-file template.json --parameters  parameters.json`
