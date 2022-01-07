@@ -16,10 +16,12 @@
 
 - `zip -r publish.zip publish`
 
-- `az batch application package create --application-name GENERATOR --name batchdatagenerator --package-file publish.zip --resource-group DataAtScale --version-name 1.0`
+- `az batch application package create --application-name GENERATOR --name adxbenchmarkbatch --package-file publish.zip --resource-group DataAtScale --version-name 1.0`
 
 - `cd TelemetryLogsGeneratorAndBenchmark/Infrastructure/AzureBatchTemplates`
 
-- `az batch account login --resource-group DataAtScale --name batchdatagenerator --shared-key-auth`
+- `az batch account login --resource-group DataAtScale --name adxbenchmarkbatch --shared-key-auth`
 
 - `az batch pool create --template generator-pool.json`
+
+- `az batch job create --template generator-job.json`
